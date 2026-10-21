@@ -19,6 +19,83 @@ using namespace std;
 		 fahr = fahr + krok;
 		
 	 }
+	 //zad3
+	 for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) //kod 02_14
+		  {
+		  float celsius = (5.0 / 9.0) * (fahr - 32.0);
+		  cout << fahr << "\t" << celsius << endl;
+		  //printf("%3.0f \t %6.1f \n", fahr , celsius);
+			  }
+	
+
+
+	 //zad4
+	 for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) //kod 02_16
+		 {
+			 float celsius = (5 / 9)*(fahr - 32.0);
+		 }
+	 printf("%3.0f %6.1f \n", fahr, celsius);
+
+	 //zad6-7
+	 int liczba;
+	 for (int i = 0; i < 10; i++) {
+		 cin >> liczba;
+		 if (liczba > 0) {
+			 cout << liczba <<endl;
+		 }
+	 }
+	 //zad9
+	 for (int i = 0; i <= 100; i += 2) {
+		 cout << i << endl;
+	 }
+	 //zad10
+	 int n;
+	 int counter = 0;
+	 cout << "podaj n: " << endl;
+	 for (int i = 0; i <= 100; i++) {
+		 if (i % n == 0) {
+			 counter++;
+		 }
+
+	 }
+	 cout << counter << endl;
+	 
+	 //zad11
+	 int a, b;
+	 cout << "podaj a: ";
+	 cin >> a;
+	 cout << "podaj b: ";
+	 cin >> b;
+	 if (a < b) {
+		 for (int i = a; i <= b; i++) {
+			 if (i % 3 == 0) {
+				 cout << i << endl;
+			 }
+		 }
+	 }
+	 else
+	 {
+		 for (int i = b; i <= a; i++) {
+			 if (i % 3 == 0) {
+				 cout << i << endl;
+			 }
+		 }
+	 }
+	 //zad12
+	 int suma = 0;
+	 cout << "podaj n: ";
+	 cin >> n;
+	 for (int i = 0; i <= n; i++) {
+		 suma += i;
+	 }
+	 cout << suma / n;
+	 //zad13
+	 for (int i = 100; i >= 0; i--) {
+		 cout << i<<endl;
+	 }
+
+
+
 
 
 
